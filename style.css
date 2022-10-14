@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    background-color: rgb(138, 135, 135);
+    min-height: 750px;
+    max-height: max-content;
+}
+
+.navbar{
+    display: flex;
+    padding: 0px;
+    background-color: rgb(221, 222, 224);
+    max-height: 80px;
+    position: fixed;
+    width: 100%;
+
+}
+.links{
+    padding-top: 5px;
+    transform: translateY(30%);
+    margin-left: auto;
+    padding-right: 1rem;
+}
+.links a{
+    padding: 5px;
+    background-color: none;
+    color: tomato;
+    padding: 1rem;
+    border-radius: 20px;
+    text-decoration: none;
+    
+}
+.links a:hover{
+    background-color: rgb(17, 18, 18);
+    color: aliceblue;
+    
+}
+.navbar img{
+    height: 5rem;
+}
+.logo a{
+    align-content: center;
+    text-decoration: none ;
+}
+
+.social{
+    position: relative;
+    padding-top: 25px;
+    margin-left: 10px;
+    font-size: x-large;
+    font-weight: bold;
+    
+}
+.social a{
+    text-decoration: none;
+}
+.content{
+    padding-top:90px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+/*types*/
+.icons img{
+    height: 70px;
+    width: 70px;    
+}
+
+.icons ul{
+    padding: 5px 30%;
+    list-style: none;
+    display: inline-flex;
+}
+
+.icons ul li{
+    margin: 10px;
+    display: block;
+}
+
+
+/*risks*/
+.logos img{
+    height:50px;
+    padding-top: 10px;
+}
+
+/*about*/
+
+
+
+/*for responsive */
+@media screen and (min-width: 600px) {
+    .col1{
+      width: 10%;
+      float: left;
+    }
+    .col2{
+        width: 85%;
+        float: right;
+        text-align: end;
+    }
+}
